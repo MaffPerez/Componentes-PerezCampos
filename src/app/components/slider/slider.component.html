@@ -1,0 +1,18 @@
+<div class="container-slider">
+    <div>
+        <h2>Noticias Destacadas</h2>
+    </div>
+    <ngb-carousel class="container-carrousel">
+        <ng-template *ngFor="let pelicula of peliculas" ngbSlide>
+          <div class="picsum-img-wrapper">
+            <img src="{{pelicula.img}}" class="images-galaxies" alt="Random first slide">
+          </div>
+          <div class="carousel-caption">
+            <h3>{{pelicula.name}}</h3>
+            <p>{{pelicula.desc}}</p>
+          </div>
+        </ng-template>
+    </ngb-carousel>
+</div>
+
+

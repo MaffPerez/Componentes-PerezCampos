@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+nav {
+    font-family: 'Bungee', cursive;
+    padding:0
+}
+
+a {
+    color: #fff;
+}
+
+.nav-link {
+    box-shadow: 0 0 3px #c8c4c4;
+}
+
+.astronaut-width {
+    width: 80%;
+}
+

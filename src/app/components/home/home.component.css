@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+
+.container-home {
+  padding: 30px 50px 10px 50px;
+  flex-direction: column;
+  background: ghostwhite;
+}
+
+.moon {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(325deg, rgb(105 125 160) 0%, rgba(159,148,250,1) 35%, rgba(70,251,247,1) 100%);
+    box-shadow: 0 0 25px #a79797;
+}
+
+.astronaut {
+    position: absolute;
+    width: 130px;
+}
+
+.rotate {
+  animation: rotation 18s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  h2 {
+    color: #fff;
+  }
+
+.astronaut {
+  animation: translate 5s infinite linear;
+}
+
+@keyframes translate {
+  from {
+    transform: translate3d(-100px, 0.9in, 1em);
+    }
+  to {
+    transform: translate3d(50px, -2px, 1px);
+  }
+}

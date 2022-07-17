@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+.btn{
+    color: #fff;
+    border-color: #fff
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #1d2851
+}
+
+.color-nav-bar{
+    font-family: 'Bungee', cursive;
+    color: #fff;
+    background: linear-gradient(to right, #233066, #031544);
+    opacity: 0.95;
+    backdrop-filter: blur(4px);
+}
+
+.navbar-brand {
+    font-size:  40px;
+}

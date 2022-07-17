@@ -1,0 +1,16 @@
+<div class="container-home d-flex align-items-center">
+    <div class="moon rotate mb-5">
+        <span class="star"></span>
+    </div>
+    <img class="astronaut" src="../assets/images/astronauta.png">
+    <div class="card-deck">
+        <div class="card" *ngFor="let item of list">
+          <img class="card-img-top" src="{{item.img}}" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">{{item.title}}</h5>
+            <p class="card-text">{{item.description}}</p>
+          </div>
+        </div>
+      </div>
+</div>
+

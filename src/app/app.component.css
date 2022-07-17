@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Luckiest+Guy&family=Rubik+Moonrocks&display=swap');
+
+.container-content {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    background: linear-gradient(to right, #233066, #031544);
+}
+
+.section-menu {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
